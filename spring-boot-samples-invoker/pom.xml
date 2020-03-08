@@ -15,6 +15,9 @@
 	<properties>
 		<main.basedir>${basedir}/..</main.basedir>
 	</properties>
+	<modules>
+		<module>../spring-boot-samples/spring-boot-sample-war</module>
+	</modules>
 	<build>
 		<plugins>
 			<plugin>

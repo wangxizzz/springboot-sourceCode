@@ -22,7 +22,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
-@PropertySource("WEB-INF/custom.properties")
+//@PropertySource("classpath:custom.properties")
 public class SampleWarApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
