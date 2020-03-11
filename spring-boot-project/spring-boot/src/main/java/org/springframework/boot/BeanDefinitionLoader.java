@@ -134,6 +134,7 @@ class BeanDefinitionLoader {
 		if (source instanceof Class<?>) {
 			return load((Class<?>) source);
 		}
+		// 加载外部资源 bean的配置
 		if (source instanceof Resource) {
 			return load((Resource) source);
 		}
